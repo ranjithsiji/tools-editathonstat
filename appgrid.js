@@ -18,7 +18,7 @@
 			  { field: 'Total Edits', width: 100, type:'number' }
 					]
 				  };
- $http.get('https://quarry.wmflabs.org/query/16976/result/latest/0/json')
+ $http.get('https://tools.wmflabs.org/editathonstat/stats.php')
        .success(function(data){
 			$scope.articles = data.rows;
 			$scope.art =[];
