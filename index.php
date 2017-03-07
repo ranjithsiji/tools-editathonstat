@@ -5,8 +5,9 @@
 	    <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wikipedia Edit a thon Staticstics App</title>
+    <title>Woman's Edit A Thon Statistics - Malayalam Wikipedia - Wikipedia Edit a thon Staticstics App</title>
     <meta name="Description"  content="Wikipedia Edit A Thon statistics app using angular js and quarry">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <script src="js/angular.js"></script>
     <script src="js/angular-touch.js"></script>
     <script src="js/angular-animate.js"></script>
