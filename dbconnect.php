@@ -28,7 +28,7 @@
 
         }
         public function result($result){
-            $row = $result->fetch_all();
+            $row[] = $result->fetch_all();
             $result->close();
             return $row;
         }

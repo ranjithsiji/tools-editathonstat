@@ -14,4 +14,4 @@ $res = $database->query($query);
 $output = $database->result($res);
 
 header('Content-Type: application/json');
-print json_encode($output);
+print ('{rows'.json_encode($output).'}');
