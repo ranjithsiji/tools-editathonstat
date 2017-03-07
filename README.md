@@ -1,6 +1,12 @@
-# tools-editathonstat
-Wiki Edit A thon statistics Tool
+# wikistats
+Statistics of Malayalam Wikipedia Edit a Thon
 
-This tools is hosted on Wikimedia Tool Labs. 
+This application is build with Angular Js, Bootstrap, Angular Chart, Chart.js and Ui Grid and PHP.
 
-By Ranjithsiji
+The data is from quarry.wmflabs.org
+
+Live Demo at https://tools.wmflabs.org/editathonstat
+
+Running the Woman's Day Edit a thon 2017 in Malayalam Wikipedia
+
+
