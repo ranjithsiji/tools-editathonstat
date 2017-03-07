@@ -7,7 +7,7 @@
 
 
         public function __construct(){
-                $config = parse_ini_file( __DIR__ . '/replica.my.cnf' );
+                $config = parse_ini_file( __DIR__ . '/../replica.my.cnf' );
                 if ( !$config || !$config['user'] || !$config['password'] ) {
                     throw new Exception( "Login Data not found!" );
                 }

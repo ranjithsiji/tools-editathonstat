@@ -13,7 +13,7 @@ $database = new db();
 $res = $database->query($query);
 
 $output = $database->result($res);
-$out['row'] = $output; 
+$out['rows'] = $output[0]; 
 //print_r(json_encode($out));
 
 header('Content-Type: application/json');
