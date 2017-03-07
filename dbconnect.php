@@ -28,14 +28,9 @@
 
         }
         public function result($result){
-            $rows = array();
-            while ($r = mysqli_fetch_assoc($result))
-            {
-                $rows[] = $r;
-            }
-            return $rows;
-
+            $row = $result->fetch_all();
             $result->close();
+            return $row;
         }
 
 
