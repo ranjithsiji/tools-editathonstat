@@ -1,5 +1,6 @@
 <?php
 // Report all PHP errors
+// Same as error_reporting(E_ALL);
 ini_set('error_reporting', E_ALL);
 
 require_once 'dbconnect.php'; //Connecting to Mysql DB
@@ -12,6 +13,8 @@ $database = new db();
 $res = $database->query($query);
 
 $output = $database->result($res);
+$out['row'] = $output; 
+//print_r(json_encode($out));
 
 header('Content-Type: application/json');
-print ('{rows'.json_encode($output).'}');
+print (json_encode($out));
