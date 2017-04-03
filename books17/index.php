@@ -46,7 +46,7 @@
       }
 			a {text-decoration:none;} h1{padding-top:50px;}
       #mainBox {height: 250px;}
-      #mainHd {background: url('img/fountain-pens.jpg') right bottom fixed; background-size: cover; }
+      #mainHd {background: url('img/books.jpg') right bottom fixed; background-size: cover; }
       #mainHd h1 {color: #fff; font-weight: bold; text-shadow: 0px 0px 4px #333;}
       #mainHd p {color: #fff;
             font-size: 1.4em;
