@@ -5,29 +5,20 @@
 	    <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Woman's Edit A Thon Statistics - Malayalam Wikipedia - Wikipedia Edit a thon Staticstics App</title>
+    <title>International Women's History 2017 Edit-A-thon - Odia Wikipedia - Wikipedia Edit a thon Staticstics App</title>
     <meta name="Description"  content="Wikipedia Edit A Thon statistics app using angular js and quarry">
-
-<link rel="icon" type="image/x-icon" href="../favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-<link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="../manifest.json">
-<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
-<meta name="theme-color" content="#ffffff">
-
-
-    <script src="../js/angular.js"></script>
-    <script src="../js/angular-touch.js"></script>
-    <script src="../js/angular-animate.js"></script>
-    <script src="../js/csv.js"></script>
-   <script src="../js/pdfmake.js"></script>
-    <script src="../js/vfs_fonts.js"></script>
-    <script src="../js/ui-grid.js"></script>
-   <link rel="stylesheet" href="../css/ui-grid.css" type="text/css">
-   <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
-   <script src="../js/Chart.min.js"></script>
-   <script src="../js/angular-chart.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <script src="js/angular.js"></script>
+    <script src="js/angular-touch.js"></script>
+    <script src="js/angular-animate.js"></script>
+    <script src="js/csv.js"></script>
+   <script src="js/pdfmake.js"></script>
+    <script src="js/vfs_fonts.js"></script>
+    <script src="js/ui-grid.js"></script>
+   <link rel="stylesheet" href="css/ui-grid.css" type="text/css">
+   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+   <script src="js/Chart.min.js"></script>
+   <script src="js/angular-chart.js"></script>
     <script src="appgrid.js"></script>
     <style>
     body {padding-top: 50px;}
@@ -97,10 +88,10 @@
   <div class="text-center aspect-ratio" id="mainBox">
     <div class="header">
         <h1>
-          Statistics of Women's Day Edit a Thon 2017
+          Statistics of International Women's History 2017 Edit-A-thon
         </h1>
 
-        <p>Staticstics of Women's Day Edit a Thon 2017 in <a href="http://ml.wikipedia.org/wiki/WP:WHMIN17">Malayalam Wikipedia</a> based on <a href="http://www.chartjs.org">Chart.js</a></p>
+        <p>Staticstics and analysis of International Women's History 2017 Edit-A-thon in <a href="https://or.wikipedia.org/s/13k6">Odia Wikipedia</a></p>
 
     </div>
   </div>
@@ -182,8 +173,8 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <h3>About Woman's Day Edit A Thon</h3>
-          <p>Woman's Day Edit A Thon is from 1st March 2017 to 31st March 2017<br/>on Malayalam Wikipedia.</p>
+          <h3>About International Women's History 2017 Edit-A-thon</h3>
+          <p>International Women's History 2017 Edit-A-thon is from 1st March 2017 to 31st March 2017<br/>on Odia Wikipedia.</p>
         </div>
       </div>
     </div>
@@ -196,7 +187,7 @@
       <p>Code licensed under <a href="https://github.com/jtblin/angular-chart.js/blob/master/LICENSE">BSD License</a>.</p>
       <p>Source Code on <a href="https://github.com/ranjithsiji/tools-editathonstat">Github</a>, <a href="https://github.com/ranjithsiji/tools-edithathonstat/issues?state=open">Issues</a></p>
       <p><strong>Credits</strong>: <a href="https://github.com/jtblin/angular-chart.js">Angular Chart</a>, <a href="http://www.chartjs.org/">Chart.js</a>, <a href="https://angularjs.org/">AngularJS</a> and  <a href="http://getbootstrap.com">Bootstrap</a></p>
-      <p><strong>Data</strong>: From Malayalam Wikipedia Labs DB <a href="https://tools.wmflabs.org/">Quarry</a></p>
+      <p><strong>Data</strong>: From <a href="https://or.wikipedia.org">Odia Wikipedia</a> - WMFLabs DB <a href="https://tools.wmflabs.org/">Quarry</a></p>
     </div>
   </footer>
   <script>

@@ -5,7 +5,7 @@
 	    <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Woman's Edit A Thon Statistics - Malayalam Wikipedia - Wikipedia Edit a thon Staticstics App</title>
+    <title>Malayalam Wikipedia - Wikipedia Edit a thon Staticstics App</title>
     <meta name="Description"  content="Wikipedia Edit A Thon statistics app using angular js and quarry">
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -49,6 +49,7 @@
       .itmList {
       	border: 1px solid #2780E3; margin:10px 2px; padding: 25px; font-size: 1.8em; margin:20px 5px; color: #333;
       }
+	.run {color:#f99;font-weight:bold;}
 	</style>
   </head>
   <body ng-app="wikiApp">
@@ -70,7 +71,7 @@
               Wiki Stats
             </a>
           </li>
-          <li><a href="#getting_started">Malayalm</a></li>
+          <li><a href="#getting_started">Malayalam</a></li>
           <li><a href="#userwise">2017</a></li>
           <li><a href="#datewise">2016</a></li>
           <li><a href="#userdata">Odia</a></li>
@@ -95,14 +96,14 @@
 <div class="row">
         <div class="col-lg-12 col-sm-12 text-center ">
         	<h2 class="onHead">Malayalam Wikipedia 2017</h2>
-        	<p class="itmList"><a href="books17/index.php">International Books Day Edit a thon 217</a></p>
-        	<p class="itmList"><a href="whmin2017/index.php">International Woman's Day Edit a thon 2017</a> 745 Articles, 34 Users</p>
+        	<p class="itmList"><a href="books17/index.php">International Books Day Edit a thon 217</a> <br/> April 2017 - <span class="run">Running</span></p>
+        	<p class="itmList"><a href="whmin2017/index.php">International Woman's Day Edit a thon 2017</a> <br/> March 2017 - 745 Articles, 34 Users</p>
         </div>	
 </div>
 <div class="row">
         <div class="col-lg-12 col-sm-12 text-center ">
         <h2 class="onHead">Odia Wikipedia 2017</h2>
-        <p class="itmList">International Woman's Day Edit a thon 2017</p>
+        <p class="itmList"><a href="odia">International Woman's Day Edit a thon 2017</a><br/> March 2017 - 200 Articles, 26 Users</p>
         </div>
 </div>
 </div>

@@ -27,7 +27,7 @@ FROM (
       	WHERE page_id IN ( 
 			SELECT cl_from FROM categorylinks
       		WHERE
-     cl_to = "2017-ലെ_വനിതാദിന_തിരുത്തൽ_യജ്ഞത്തിന്റെ_ഭാഗമായി_സൃഷ്ടിക്കപ്പെട്ട_ലേഖനങ്ങൾ" 			#ml - The Category Name
+     cl_to = "2017-ലെ_പുസ്തകദിന_തിരുത്തൽ_യജ്ഞത്തിന്റെ_ഭാഗമായി_സൃഷ്ടിക്കപ്പെട്ട_ലേഖനങ്ങൾ" 			#ml - The Category Name
         	) 
     	)
 	)

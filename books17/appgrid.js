@@ -18,7 +18,7 @@
 			  { field: 'Total Edits', width: 100, type:'number' }
 					]
 				  };
- $http.get('https://tools.wmflabs.org/editathonstat/stats.php')
+ $http.get('https://tools.wmflabs.org/editathonstat/books17/stats.php')
        .success(function(data){
 			$scope.articles = data.rows;
 			$scope.art =[];

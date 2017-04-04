@@ -5,7 +5,7 @@
 	    <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Woman's Edit A Thon Statistics - Malayalam Wikipedia - Wikipedia Edit a thon Staticstics App</title>
+    <title>International Books Day Edit A Thon Statistics - Malayalam Wikipedia - Wikipedia Edit a thon Staticstics App</title>
     <meta name="Description"  content="Wikipedia Edit A Thon statistics app using angular js and quarry">
 
 <link rel="icon" type="image/x-icon" href="../favicon.ico">
@@ -46,7 +46,7 @@
       }
 			a {text-decoration:none;} h1{padding-top:50px;}
       #mainBox {height: 250px;}
-      #mainHd {background: url('img/books.jpg') right bottom fixed; background-size: cover; }
+      #mainHd {background: url('../img/books.jpg') right bottom fixed; background-size: cover; }
       #mainHd h1 {color: #fff; font-weight: bold; text-shadow: 0px 0px 4px #333;}
       #mainHd p {color: #fff;
             font-size: 1.4em;
@@ -80,10 +80,11 @@
       <nav class="hidden-xs">
         <ul class="nav navbar-nav">
           <li>
-            <a href="#top" role="button" class="navbar-brand">
+            <a href="https://tools.wmflabs.org/editathonstat" role="button" class="navbar-brand">
               Wiki Stats
             </a>
           </li>
+          <li><a href="#top">Top</a></li>
           <li><a href="#getting_started">Data</a></li>
           <li><a href="#userwise">Users</a></li>
           <li><a href="#datewise">Date Wise</a></li>
@@ -97,10 +98,10 @@
   <div class="text-center aspect-ratio" id="mainBox">
     <div class="header">
         <h1>
-          Statistics of Women's Day Edit a Thon 2017
+          Statistics of International Book's Day Edit a Thon 2017
         </h1>
 
-        <p>Staticstics of Women's Day Edit a Thon 2017 in <a href="http://ml.wikipedia.org/wiki/WP:WHMIN17">Malayalam Wikipedia</a> based on <a href="http://www.chartjs.org">Chart.js</a></p>
+        <p>Staticstics of International Books Day Edit a Thon 2017 in <a href="http://ml.wikipedia.org/wiki/WP:BOOK17">Malayalam Wikipedia</a></p>
 
     </div>
   </div>
@@ -111,7 +112,7 @@
       <div class="row">
         <div class="col-lg-12 col-sm-12">
             <p class="big">Total {{artnumber}} Articles </p>
-            <p class="centerp">From 1st March 2017 to 31st March 2017</p>
+            <p class="centerp">From 1st April 2017 to 30th April 2017</p>
         </div>
       </div>
       <div class="row" id="getting_started">
@@ -182,8 +183,9 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <h3>About Woman's Day Edit A Thon</h3>
-          <p>Woman's Day Edit A Thon is from 1st March 2017 to 31st March 2017<br/>on Malayalam Wikipedia.</p>
+          <h3>About International Day Edit A Thon</h3>
+          <p>International Book's Day Edit A Thon is an edit a thon conducted in Mayalam Wikipedia from 1st April 2017 to 30th April 2017 on Malayalam Wikipedia.</p>
+	<p>
         </div>
       </div>
     </div>

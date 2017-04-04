@@ -2,12 +2,12 @@
   class db {
 
         public $dbCon;
-        public $server = 'mlwiki.labsdb';
-        public $dbname = 'mlwiki_p';
+        public $server = 'orwiki.labsdb';
+        public $dbname = 'orwiki_p';
 
 
         public function __construct(){
-                $config = parse_ini_file( __DIR__ . '/../replica.my.cnf' );
+                $config = parse_ini_file( __DIR__ . '/../../replica.my.cnf' );
                 if ( !$config || !$config['user'] || !$config['password'] ) {
                     throw new Exception( "Login Data not found!" );
                 }
