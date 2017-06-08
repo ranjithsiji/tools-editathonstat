@@ -54,15 +54,28 @@
             text-shadow: 0px 0px 4px #333;
       }
        #mainHd a {color: #dfff00;}
-      .big {font-weight: bold; color: #2780E3; font-size: 4em; text-align: center; border: 1px solid #2780E3;}
-      .centerp {text-align: center; color: #333; font-size: 1.4em;}
-      .footer {
+      	.big {font-weight: bold; color: #F04C46; font-size: 4em; text-align: center; border: 2px solid #F04C46;}
+      .bigstat {
+        font-weight: bold;
+        font-size: 3.1em;
+        text-align: center;
+        color: #2780E3;
+        line-height: 1;
+        padding: 18px 10px;
+        border: 2px solid #2780E3;
+      }
+      .centerp {text-align: center; color: #333; font-size: 1.8em; font-weight: bold;}
+	.footer {
           text-align: center;
           padding: 30px 0;
           margin-top: 70px;
           border-top: 1px solid #0048de;
           background-color: #dedede;
       }
+.editors {
+        font-size: 1.4em; color: #333; border: 1px solid #ccc; padding: 10px 20px; text-align: center; color: #2780E3; font-weight: bold;
+      }
+      .editorsQ { font-size: 1.8em; font-weight: bold; text-align: center;color: #736713;  }
 	</style>
   </head>
   <body ng-app="wikiApp">
@@ -111,8 +124,28 @@
   <div ng-controller="wikiCtrl">
       <div class="row">
         <div class="col-lg-12 col-sm-12">
-            <p class="big">Total {{artnumber}} Articles </p>
             <p class="centerp">From 1st April 2017 to 30th April 2017</p>
+            <p class="big">Total {{artnumber}} Articles </p>
+        </div>
+        <div class="col-lg-4">
+          <p class="bigstat">{{usrnumber}} <br/>Users </p>
+        </div>
+        <div class="col-lg-4">
+            <p class="bigstat">{{editno}} <br/>Edits </p>
+        </div>
+        <div class="col-lg-4">
+            <p class="bigstat">{{byteno}} <br/>Bytes </p>
+        </div>
+      </div>
+      <div class="row" ng-if="running">
+        <div class="col-lg-12 col-sm-12">
+        <h2>Today's Editors</h2>
+        <hr/>
+          <p class="editors">
+          <span  ng-repeat="val in todayusers"> |
+            {{val}} | </span>
+          </p>
+          <p class="editorsQ">Cant Find your Name? <a href="http://ml.wikipedia.org/wiki/WP:BOOK17">Write an Article to Join Us</a></p>
         </div>
       </div>
       <div class="row" id="getting_started">
@@ -183,8 +216,9 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <h3>About International Day Edit A Thon</h3>
-          <p>International Book's Day Edit A Thon is an edit a thon conducted in Mayalam Wikipedia from 1st April 2017 to 30th April 2017 on Malayalam Wikipedia.</p>
+          <h3>About International Books Day Edit A Thon</h3>
+<p>World Book Day[1] or World Book and Copyright Day (also known as International Day of the Book or World Book Days) is a yearly event on April 23rd, organized by the United Nations Educational, Scientific and Cultural Organization (UNESCO), to promote reading, publishing and copyright. <a href="https://en.wikipedia.org/wiki/World_Book_Day">Wikipedia</a></p>          
+<p>International Book's Day Edit A Thon is an edit a thon conducted in Mayalam Wikipedia from 1st April 2017 to 30th April 2017 on Malayalam Wikipedia to celebrate World Book Day.</p>
 	<p>
         </div>
       </div>

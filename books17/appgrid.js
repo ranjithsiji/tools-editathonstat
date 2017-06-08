@@ -1,6 +1,7 @@
  var wikiAppModule = angular.module('wikiApp', ['ngTouch', 'ui.grid', 'ui.grid.resizeColumns', 'ui.grid.moveColumns','ui.grid.autoResize', 'chart.js']);
  
  wikiAppModule.controller('wikiCtrl', ['$scope', '$http', function ($scope, $http) {
+		$scope.running=true;
 	  $scope.gridOptions = {
 			enableSorting: true,
 			enableFiltering: true,
@@ -27,9 +28,32 @@
 			$scope.artnumber = $scope.articles.length;
 			var ustat =[];
 			var dstat =[];
+			$scope.usrnumber=0;
+			$scope.editno=0;
+			$scope.byteno=0;
+			$scope.todayusers =[];
+			//var today = new Date('2017-04-06');
+			var todayin = new Date();
+			var todaystr = todayin.toISOString().substring(0, 10);
+			var today = new Date (todaystr);
 			for (var i = 0; i < $scope.articles.length; i++) {
 							//$scope.labels.push ()
 						//	console.log ($scope.articles[i][5].substr(12,8));
+					if ($scope.running) {
+						mydate =  $scope.articles[i][2];
+						//console.log(mydate.replace(/^(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)$/, '$1-$2-$3'));
+						dtstrcmp = new Date (mydate.replace(/^(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)$/, '$1-$2-$3'));
+						//console.log (dtstrcmp.getTime());
+						//console.log (today.getTime());
+
+						if(dtstrcmp.getTime()===today.getTime())
+						{
+							if($scope.todayusers.indexOf($scope.articles[i][3]) == -1) {
+								$scope.todayusers.push( $scope.articles[i][3] );
+							}
+							//console.log ($scope.articles[i][3] );
+						}
+					}
 						dstat.push ($scope.articles[i][2].substr(0,8));
 						dtnew = 	new Date($scope.articles[i][5].replace(    /^(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)$/,    '$4:$5:$6 $2/$3/$1'));
 						dtcr = new Date($scope.articles[i][2].replace(    /^(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)$/,    '$4:$5:$6 $2/$3/$1'));
@@ -47,9 +71,14 @@
 													"Total Size":$scope.articles[i][7],
 												});
 								ustat.push ($scope.articles[i][3]);
+								$scope.editno = parseInt($scope.editno,0)+parseInt($scope.articles[i][8],0);
+								$scope.byteno = parseInt($scope.byteno,0)+parseInt($scope.articles[i][7],0);
+
 
 						}
-
+						if ($scope.todayusers.length===0) {
+							$scope.running=false;
+						}
 						$scope.gridOptions.data = $scope.art;
 						//Options for finding users - articles numbers
 						var obj = { };
@@ -76,7 +105,7 @@
 							        	"ArticleNo":orderedobj[key]
 							        });
 							    }
-					
+							$scope.usrnumber=$scope.users.length;	
 							//console.log(JSON.stringify($scope.data));
 							//$scope.labels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
 							$scope.series = ['Wiki Users'];
