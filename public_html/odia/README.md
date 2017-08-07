@@ -7,6 +7,6 @@ The data is from quarry.wmflabs.org
 
 Live Demo at https://tools.wmflabs.org/editathonstat
 
-Tracking Running Edit a thons in Malayalam Wikipedia
+Running the Woman's Day Edit a thon 2017 in Malayalam Wikipedia
 
 
