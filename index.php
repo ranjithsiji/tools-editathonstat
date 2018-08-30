@@ -87,7 +87,7 @@
           Edit a thons in Wikipedia - Malayalam, Odia
         </h1>
 
-        <p>Staticstics of Edit a thons in  <a href="http://ml.wikipedia.org/wiki/">Malayalam Wikipedia</a></p>
+        <p>Staticstics of Edit a thons in  various wikipedia</p>
 
     </div>
   </div>
@@ -95,8 +95,25 @@
 <div class="container">
 <div class="row">
         <div class="col-lg-12 col-sm-12 text-center ">
+        	<h2 class="onHead">Malayalam Wikipedia 2018</h2>
+        	<p class="itmList"><strong><a href="pt18ml/index.php">Project Tiger Competetion 2018</a></strong> <br/>March 2018 - May 2018 -- <span class="run">Running</span> --</p>
+        	<p class="itmList"><strong><a href="whmin2018/index.php">International Woman's Day 2018</a></strong> <br/>March 2018 </p>
+	</div>
+</div>
+<div class="row">
+        <div class="col-lg-12 col-sm-12 text-center ">
+        	<h2 class="onHead">Bangladesh Wikipedia 2018</h2>
+        	<p class="itmList"><strong><a href="imld18bn/index.php">International Mother Langauge Day</a></strong> <br/>February 2018 </p>
+	</div>
+</div>
+<div class="row">
+        <div class="col-lg-12 col-sm-12 text-center ">
         	<h2 class="onHead">Malayalam Wikipedia 2017</h2>
-        	<p class="itmList"><a href="wed17/index.php">World Environment Day Edit a thon 2017</a> <br/> June 2017 - <span class="run">Running</span></p>
+        	<p class="itmList"><strong><a href="twl17/index.php">Thousand Wiki Lights</a></strong> <br/>December 2017 -- January 2018</p>
+        	<p class="itmList"><strong><a href="wam17/index.php">Wikipedia Asian Month 2017</a></strong> <br/>November 2017 <!-- <span class="run">Running</span> --></p>
+        	<p class="itmList"><a href="edu17/index.php">Education Edit a thon 2017</a> <br/> August - October 2017 <!--  <span class="run">Running</span> --></p>
+        	<p class="itmList"><a href="nmd17/index.php">Nelson Mandela Day Edit a thon 2017</a> <br/> July 2017 </p>
+        	<p class="itmList"><a href="wed17/index.php">World Environment Day Edit a thon 2017</a> <br/> June 2017 - <!-- <span class="run">Running</span> --></p>
         	<p class="itmList"><a href="unesco17/index.php">World Heritage Edit a thon 2017</a> <br/> May 2017</p>
         	<p class="itmList"><a href="books17/index.php">International Books Day Edit a thon 2017</a> <br/> April 2017 - 857 Articles, 26 Users</p>
         	<p class="itmList"><a href="whmin2017/index.php">International Woman's Day Edit a thon 2017</a> <br/> March 2017 - 745 Articles, 34 Users</p>
@@ -119,15 +136,5 @@
       <p><strong>Data</strong>: From Malayalam Wikipedia Labs DB <a href="https://tools.wmflabs.org/">Quarry</a></p>
     </div>
   </footer>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-89656074-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

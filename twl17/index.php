@@ -1,7 +1,7 @@
 <?php //Edit A thon Stat Main Tool  
 $name="Thousand Wiki Lights";
 $urls = "https://ml.wikipedia.org/wiki/WP:TWL";
-$dates = "From 17th December 2017 to 31st January 2018";
+$dates = "From 1st December 2017 to 31st January 2018";
 $subject = "1000 Articles to Malayalam Wikipedia.";
 $wiki = "Malayalam Wikipedia";
 ?>

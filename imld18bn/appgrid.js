@@ -1,7 +1,7 @@
  var wikiAppModule = angular.module('wikiApp', ['ngTouch', 'ui.grid', 'ui.grid.resizeColumns', 'ui.grid.moveColumns','ui.grid.autoResize', 'chart.js']);
  
  wikiAppModule.controller('wikiCtrl', ['$scope', '$http', function ($scope, $http) {
-		$scope.running=false;
+		$scope.running=true;
 	  $scope.gridOptions = {
 			enableSorting: true,
 			enableFiltering: true,
@@ -9,7 +9,7 @@
 			  { field: '#', minWidth: 20, width: 40, enableColumnResizing: false, type:'number' },
 			  { field: 'Article', minWidth: 200, width: 250, enableColumnResizing: true, type:'string',
 				  cellTemplate:'<div>' +
-                       '  <a href="https://ml.wikipedia.org/wiki/{{row.entity.Article}}" target="_blank">{{row.entity.Article}}</a>' +
+                       '  <a href="https://bn.wikipedia.org/wiki/{{row.entity.Article}}" target="_blank">{{row.entity.Article}}</a>' +
                        '</div>' },
 			  { field: 'Created By', width: 100, maxWidth: 200, minWidth: 70, type:'string' },
 			   { field: 'Created Date', width: 150, maxWidth: 200, minWidth: 70, type:'date' },
@@ -19,7 +19,7 @@
 			  { field: 'Total Edits', width: 100, type:'number' }
 					]
 				  };
- $http.get('https://tools.wmflabs.org/editathonstat/wed17/stats.php')
+ $http.get('https://tools.wmflabs.org/editathonstat/imld18bn/stats.php')
        .success(function(data){
 			$scope.articles = data.rows;
 			$scope.art =[];

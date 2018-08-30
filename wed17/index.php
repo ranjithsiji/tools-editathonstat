@@ -216,10 +216,9 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <h3>About World Heritage Edit A Thon</h3>
-<p>UNESCO Challenge is a public writing competition around the UNESCO World Heritage sites. The goal of this first edition is to create articles and add images to improve Wikipedia's coverage of the sites into as many languages as possible, especially about the ones that are in danger.</p>          
-<p>The writing challenge will run from 00:01 18 April until 23:59 18 May 2017</p>
-<p>World Heritage Edit A Thon is an edit a thon conducted in Mayalam Wikipedia from 18th April 2017 to 18th May 2017 on Malayalam Wikipedia to contribute articles in <a href="https://meta.wikimedia.org/wiki/UNESCO_Challenge">UNESCO Challege in Metawiki</a>.</p>
+          <h3>About World Environment Day Edit A Thon</h3>
+<p>The writing challenge will run from 00:01 1 June until 23:59 30 June 2017</p>
+<p>World Environment Day Edit A Thon is an edit a thon conducted in Mayalam Wikipedia to contribute articles about environment.</p>
         </div>
       </div>
     </div>
@@ -235,15 +234,5 @@
       <p><strong>Data</strong>: From Malayalam Wikipedia Labs DB <a href="https://tools.wmflabs.org/">Quarry</a></p>
     </div>
   </footer>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-89656074-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

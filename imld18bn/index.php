@@ -1,7 +1,9 @@
 <?php //Edit A thon Stat Main Tool  
-$name = "Rio Olympics Edit a thon 2016";
-$about = "An Edit a thon about sports and olympics related articles in malayalam wikipedia";
-$url="http://ml.wikipedia.org/wiki/WP:RIO2016";
+$name="International Mother Language Day";
+$urls = "https://bn.wikipedia.org/s/ape6";
+$dates = "From 1st February 2018 to 31st March 2018";
+$subject = "Contest writing competition organized on the occasion of International Mother Language Day.";
+$wiki = "Wikimedia Bangladesh";
 ?>
 <!doctype html>
 <html ng-app="wikiApp">
@@ -9,7 +11,7 @@ $url="http://ml.wikipedia.org/wiki/WP:RIO2016";
 	    <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $name; ?>Statistics - Malayalam Wikipedia - Wikipedia Edit a thon Staticstics App</title>
+    <title><?php echo $name; ?> Statistics - Bangla Wikipedia</title>
     <meta name="Description"  content="Wikipedia Edit A Thon statistics app using angular js and quarry">
 
 <link rel="icon" type="image/x-icon" href="../favicon.ico">
@@ -50,7 +52,7 @@ $url="http://ml.wikipedia.org/wiki/WP:RIO2016";
       }
 			a {text-decoration:none;} h1{padding-top:50px;}
       #mainBox {height: 250px;}
-      #mainHd {background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Olympic_flame_at_opening_ceremony.jpg/1024px-Olympic_flame_at_opening_ceremony.jpg') right bottom fixed; background-size: cover; }
+      #mainHd {background: url('../img/pexels-photo-590493.jpg') right bottom fixed; background-size: cover; }
       #mainHd h1 {color: #fff; font-weight: bold; text-shadow: 0px 0px 4px #333;}
       #mainHd p {color: #fff;
             font-size: 1.4em;
@@ -92,7 +94,7 @@ $url="http://ml.wikipedia.org/wiki/WP:RIO2016";
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand visible-xs" href="https://tools.wmflabs.org/editathonstat">Wiki Stats</a>
+        <a class="navbar-brand visible-xs" href="#">Wiki Stats</a>
       </div>
       <nav class="hidden-xs">
         <ul class="nav navbar-nav">
@@ -115,10 +117,10 @@ $url="http://ml.wikipedia.org/wiki/WP:RIO2016";
   <div class="text-center aspect-ratio" id="mainBox">
     <div class="header">
         <h1>
-          Statistics of <?php echo $name; ?>
+          <?php echo $name;?>
         </h1>
 
-        <p>Staticstics of <?php echo $name; ?>in <a href="<?php echo $url; ?>">Malayalam Wikipedia</a></p>
+        <p>Staticstics of <?php echo $name; ?> in <a href="<?php echo $urls;?>">Bangladesh Wikipedia</a></p>
 
     </div>
   </div>
@@ -128,7 +130,7 @@ $url="http://ml.wikipedia.org/wiki/WP:RIO2016";
   <div ng-controller="wikiCtrl">
       <div class="row">
         <div class="col-lg-12 col-sm-12">
-            <p class="centerp">From 1st April 2017 to 30th April 2017</p>
+            <p class="centerp"><?php echo $dates;?></p>
             <p class="big">Total {{artnumber}} Articles </p>
         </div>
         <div class="col-lg-4">
@@ -149,12 +151,12 @@ $url="http://ml.wikipedia.org/wiki/WP:RIO2016";
           <span  ng-repeat="val in todayusers"> |
             {{val}} | </span>
           </p>
-          <p class="editorsQ">Cant Find your Name? <a href="<?php echo $url; ?>">Write an Article to Join Us</a></p>
+          <p class="editorsQ">Cant Find your Name? <a href="<?php echo $urls;?>">Write an Article to Join Us</a></p>
         </div>
       </div>
       <div class="row" id="getting_started">
         <div class="col-lg-12 col-sm-12">
-          <h2>Articles created in this Edit A Thon</h2>
+          <h2>Articles created in <?php echo $name;?></h2>
           <div ui-grid="gridOptions" class="grid" ui-grid-resize-columns ui-grid-move-columns ui-grid-auto-resize></div>
         </div>
       </div>
@@ -220,9 +222,11 @@ $url="http://ml.wikipedia.org/wiki/WP:RIO2016";
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <h3>About <?php echo $name; ?></h3>
-	<p> <?php echo $about; ?> </p>
-	<p><a href="<?php echo $url; ?>"><?php echo $name; ?></a></p>
+          <h3>About <?php echo $name;?></h3>
+<p>Time : <?php echo $dates;?></p>
+<p>Subject : <?php echo $subject;?> 
+<p>URL : <a href="<?php echo $urls; ?>"><?php echo $urls;?></a></p>
+<p>Wiki : <?php echo $wiki;?></p>
         </div>
       </div>
     </div>
