@@ -96,7 +96,10 @@
 <div class="row">
         <div class="col-lg-12 col-sm-12 text-center ">
         	<h2 class="onHead">Malayalam Wikipedia 2018</h2>
-        	<p class="itmList"><strong><a href="pt18ml/index.php">Project Tiger Competetion 2018</a></strong> <br/>March 2018 - May 2018 -- <span class="run">Running</span> --</p>
+        	<p class="itmList"><strong><a href="eg2018/index.php">Ente Gramam Edit a Thon 2018</a></strong> <br/>13th December 2018 - 20th January 2018 -- <span class="run">Running</span> --</p>
+        	<p class="itmList"><strong><a href="wam18/index.php">Wiki Asian Month 2018</a></strong> <br/>1st November 2018 - 30th November 2018 </p>
+        	<p class="itmList"><strong><a href="iim2018/index.php">Indian Independence Movement Edit a Thon 2018</a></strong> <br/>15th August 2018 - 2nd October 2018 </p>
+        	<p class="itmList"><strong><a href="pt18ml/index.php">Project Tiger Competetion 2018</a></strong> <br/>March 2018 - May 2018 </p>
         	<p class="itmList"><strong><a href="whmin2018/index.php">International Woman's Day 2018</a></strong> <br/>March 2018 </p>
 	</div>
 </div>
