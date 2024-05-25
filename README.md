@@ -5,8 +5,6 @@ This application is build with Angular Js, Bootstrap, Angular Chart, Chart.js an
 
 The data is from quarry.wmflabs.org
 
-Live Demo at https://tools.wmflabs.org/editathonstat
-
-Running the Woman's Day Edit a thon 2017 in Malayalam Wikipedia
+Live Demo at https://editathonstat.toolforge.org/
 
 
