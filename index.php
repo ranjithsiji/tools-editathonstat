@@ -68,7 +68,7 @@
         <ul class="nav navbar-nav">
           <li>
             <a href="#top" role="button" class="navbar-brand">
-              Wiki Stats
+              Wiki Stat
             </a>
           </li>
           <li><a href="#getting_started">Malayalam</a></li>
@@ -84,7 +84,7 @@
   <div class="text-center aspect-ratio" id="mainBox">
     <div class="header">
         <h1>
-          Edit a thons in Wikipedia - Malayalam, Odia
+         Statistics of  Edit a thons in Wikipedia
         </h1>
 
         <p>Staticstics of Edit a thons in  various wikipedia</p>

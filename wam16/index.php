@@ -1,7 +1,7 @@
 <?php //Edit A thon Stat Main Tool  
-$name="Wikipedia Asian Month 2017 Editathon";
-$urls = "https://ml.wikipedia.org/wiki/WP:WAM2017";
-$dates = "From 1st November 2017 to 30th November 2017";
+$name="Wikipedia Asian Month 2016";
+$urls = "https://ml.wikipedia.org/wiki/WP:WAM2016";
+$dates = "From 1st November 2016 to 30th November 2016";
 $subject = "Articles about Asia Education. Minimum 300 words and 3000 bytes.";
 $wiki = "Malayalam Wikipedia";
 ?>
@@ -99,7 +99,7 @@ $wiki = "Malayalam Wikipedia";
       <nav class="hidden-xs">
         <ul class="nav navbar-nav">
           <li>
-            <a href="https://tools.wmflabs.org/editathonstat" role="button" class="navbar-brand">
+            <a href="https://editathonstat.toolforge.org" role="button" class="navbar-brand">
               Wiki Stats
             </a>
           </li>
@@ -239,7 +239,7 @@ $wiki = "Malayalam Wikipedia";
       <p>Code licensed under <a href="https://github.com/jtblin/angular-chart.js/blob/master/LICENSE">BSD License</a>.</p>
       <p>Source Code on <a href="https://github.com/ranjithsiji/tools-editathonstat">Github</a>, <a href="https://github.com/ranjithsiji/tools-edithathonstat/issues?state=open">Issues</a></p>
       <p><strong>Credits</strong>: <a href="https://github.com/jtblin/angular-chart.js">Angular Chart</a>, <a href="http://www.chartjs.org/">Chart.js</a>, <a href="https://angularjs.org/">AngularJS</a> and  <a href="http://getbootstrap.com">Bootstrap</a></p>
-      <p><strong>Data</strong>: From Malayalam Wikipedia Labs DB <a href="https://tools.wmflabs.org/">Quarry</a></p>
+      <p><strong>Data</strong>: From Malayalam Wikipedia Labs DB <a href="https://quarry.toolforge.org/">Quarry</a></p>
     </div>
   </footer>
 </body>
